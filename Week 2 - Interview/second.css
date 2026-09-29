@@ -1,0 +1,137 @@
+body {
+    margin-top:3rem;
+    margin-bottom:3rem;
+    margin-left:3rem;
+    margin-right:3rem;
+    background-color:rgb (255,250,250);
+}
+h1,h3,h2,p {
+    font-family: monospace;
+    cursor:default;
+}
+h1 {
+    font-size:96px;
+    letter-spacing:-19px;
+    margin-bottom:0px;
+}
+h3 {
+    font-size:32px;
+    letter-spacing:-3px;
+}
+h1+h3 {
+    margin-top:-5px;
+}
+p {
+    font-size:16px;
+    letter-spacing:-3px;
+    line-height:32px;
+    color:dimgray;
+    cursor:default;
+}
+h2 {
+    font-size:24px;
+    letter-spacing:-3px;
+    text-align: right;
+    color:dimgray;
+}
+.expand {
+    transition: letter-spacing 0.3s ease-in-out;
+}
+.expand:hover {
+    letter-spacing:5px;
+    cursor:default;
+}
+.libre-barcode-128-text-regular {
+  font-family: "Libre Barcode 128 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+    font-family:'MyCustomFont';
+    src: url(EmojiFont.ttf) format('truetype');
+}
+.custom {
+    font-family:'MyCustomFont', sans-serif;
+    font-size:18px;
+    margin-top:-10px;
+}
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+}
+a {
+    text-decoration:none;
+    color:unset;
+}
+.right-wrap {
+    float:right;
+    margin-left:3rem;
+    margin-bottom:2rem;
+}
+.left-wrap {
+    float:left;
+    margin-left:6rem;
+    margin-right:3rem;
+    margin-bottom:2rem;
+}
+.p-hover {
+    color:dimgray;
+    cursor:pointer;
+    transition:color 0.3s ease;
+    transition:letter-spacing 0.3s ease-in-out;
+}
+.p-hover:hover {
+    color:lightslategray;
+    letter-spacing:5px;
+    cursor:pointer;
+}
+.floating {
+    width:214px;
+    height:auto;
+    animation: floatUpDown 2s ease-in-out infinite alternate;
+}
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.spin {
+    animation:spin 4s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.li {
+    background:linear-gradient(
+        to right,
+        red, orange, yellow, green, blue, purple, pink, red
+    );
+    background-size:200%;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color:transparent;
+    -webkit-background-clip: transparent;
+    animation: rainbow-transition 7s linear infinite;
+}
+@keyframes rainbow-transition {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}

@@ -1,0 +1,17 @@
+body {
+    margin-top:13rem;
+    margin-bottom:3rem;
+    margin-right:3rem;
+    margin-left:7rem;
+}
+h1 {
+    font-size:120px;
+    letter-spacing:-6px;
+    margin-top:-2rem;
+    margin-left:3rem;
+}
+h1, h2, p {
+    font-family:sans-serif;
+    line-height:-10rem;
+    z-index:-1;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color:black;
+}
+h1 {
+    position:relative;
+        top:300px;
+    font-family: "helvetica";
+    font-size: 120px;
+    letter-spacing: 3px;
+    line-height:5px;
+    text-align:center;
+    color:aliceblue;
+}
+.container {
+    display:grid;
+    place-items:center;
+    height:650px;
+}
+button {
+    font-family: "helvetica";
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+a {
+    text-decoration:none;
+}

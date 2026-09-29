@@ -1,0 +1,55 @@
+body, button {
+    background-color:aliceblue;
+    border:dotted;
+    border-color:rgb(25,25,112);
+}
+h1, h3, p, button {
+    font-family: "helvetica";
+    letter-spacing: 3px;
+    color:rgb(25,25,112);
+}
+h1 {
+    font-size: 90px;
+    line-height: 15px;
+    text-align: right;
+    text-indent: 3rem;
+    direction:rtl;
+}
+h3 {
+    font-size: 25px;
+    line-height: 15px;
+    text-indent: 3rem;
+}
+p, button {
+    font-size: 15px;
+    font-weight:900px;
+    word-spacing: -2px;
+}
+p {
+    line-height: 25px;
+    margin-left:3rem;
+    margin-right:3rem;
+}
+button {
+    position: relative;
+        left: 3rem;
+    width: 130px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius:20%;
+    border-color:rgb(25,25,112);
+    display:inline-block;
+    cursor:pointer;
+    font-weight:900;
+}
+a {
+    text-decoration:none;
+    color:midnightblue;
+}
+popover {
+    border-color:midnightblue;
+}
+.image-box {
+    text-align:right;
+    margin-right: 3rem;
+}
