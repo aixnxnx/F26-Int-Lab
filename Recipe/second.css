@@ -13,11 +13,20 @@ h1, h2, p {
     font-family:sans-serif;
     line-height:-10rem;
     z-index:-1;
+    cursor:default;
+}
+h2 {
+    font-size:32px;
+    margin-top:-5rem;
+    margin-bottom:3rem;
+    padding-right:6rem;
+    padding-left:3rem;
 }
 p {
     font-size:24px;
     font-weight:bold;
     margin-left:12rem;
+    padding-right:6rem;
 }
 a {
     text-decoration:none;
@@ -60,4 +69,11 @@ a:hover {
     margin-left:-14rem;
     align-items: center;
     z-index: 1;
+}
+.highlight {
+    color:black;
+}
+.highlight:hover {
+    color:rgb(255, 71, 255);
+    cursor:default;
 }
