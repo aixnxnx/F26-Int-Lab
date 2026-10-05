@@ -26,7 +26,7 @@ p {
     font-size:24px;
     font-weight:bold;
     margin-left:12rem;
-    padding-right:6rem;
+    margin-right:21rem;
 }
 a {
     text-decoration:none;
@@ -75,5 +75,36 @@ a:hover {
 }
 .highlight:hover {
     color:rgb(255, 71, 255);
+    cursor:default;
+}
+.mint {
+    color:black;
+}
+.mint:hover {
+    color:rgb(71, 255, 221);
+    cursor:default;
+}
+.images {
+    width:250px;
+    height:auto;
+    position:absolute;
+    right:100px;
+    filter:hue-rotate(180deg)
+}
+.images:hover {
+    filter:hue-rotate(0deg)
+}
+.aqua {
+    color:black;
+}
+.aqua:hover {
+    color:rgb(71, 209, 255);
+    cursor:default;
+}
+.bubblegum {
+    color:black;
+}
+.bubblegum:hover {
+    color:rgb(255, 104, 207);
     cursor:default;
 }
