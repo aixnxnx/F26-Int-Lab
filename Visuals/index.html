@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rabbit.</title>
+        <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- <div class="rabbit">
+        <input type="checkbox" id="check" class="toggle">
+        <label for="check">
+            <img src="rabbit.png" class="closed">
+        </label>
+        <label for="check">
+            <img src="rabbit staring.png" class="open">
+        </label>
+    </div> -->
+    <div class="regular">
+        <img src="rabbit.png" id="rabbit" class="cover">
+    <div class="rabbits">
+        <img src="rabbit staring green.png" class="s green peekaboo">
+        <img src="rabbit staring yellow.png" class="s yellow peekaboo">
+        <img src="rabbit staring red.png" class="s red peekaboo">
+        <img src="rabbit staring pink.png" class="s pink peekaboo">
+        <img src="rabbit staring blue.png" class="s blue peekaboo">
+    </div>
+    <script>
+        const image = document.getElementById('rabbit');
+        image.addEventListener ('click', function() {
+            image.classList.add ('hide');
+        });
+    </script>
+</body>
+</html>

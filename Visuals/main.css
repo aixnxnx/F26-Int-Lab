@@ -1,0 +1,104 @@
+/* img {
+    width:250px;
+    height:auto;
+    cursor:pointer;
+}
+.rabbit {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:75vh;
+    width:80vw;
+}
+.toggle {
+    display:none;
+}
+.tuperware {
+    display:inline-block;
+}
+.closed {
+    opacity:1;
+}
+.open {
+    opacity:0;
+    z-index:2;
+}
+.closed, .open {
+    position:absolute;
+    object-fit:cover;
+}
+.toggle:checked + .open {
+    opacity:1;
+}
+.toggle:checked + .closed {
+    opacity:0;
+}
+/* .check:checked + .tuperware .closed {
+    opacity:0;
+}
+ .tuperware {
+    display:inline-block;
+    cursor:pointer;
+}
+.creepy-check {
+    display:none;
+    z-index:-10;
+}
+.ziploc {
+    display:inline-block;
+    cursor:pointer;
+}
+.creepy-check:checked + .ziploc .open {
+    opacity:1;
+} */
+img {
+    width:250px;
+    height:auto;
+    cursor:pointer;
+}
+.peekaboo {
+    position:fixed;
+    top:268px;
+    left:598px;
+    z-index:-1;
+}
+.cover {
+    position:relative;
+    top:260px;
+    left:590px;
+    z-index:1;
+}
+.hide {
+    display:none;
+}
+.rabbits {
+    display:block;
+}
+.s {
+    animation: fadeLoop 7s infinite;
+    position:absolute;
+    opacity:0;
+}
+.green {
+    animation-delay:0s;
+}
+.yellow {
+    animation-delay: 1.5s;
+}
+.red {
+    animation-delay: 3s;
+}
+.pink {
+    animation-delay: 4.5s;
+}
+.blue {
+    animation-delay: 6s;
+}
+@keyframes fadeLoop {
+    0% {opacity:0;}
+    10% {opacity:1;}
+    33% {opacity:1;}
+    43% {opacity:0;}
+    100% {opacity:0;}
+}
