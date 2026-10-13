@@ -57,11 +57,18 @@ img {
     height:auto;
     cursor:pointer;
 }
-.peekaboo {
+.rabbits {
     position:fixed;
     top:268px;
     left:598px;
     z-index:-1;
+    width:250px;
+    height:250px;
+}
+.peekaboo {
+    position:absolute;
+    top:0;
+    left:0;
 }
 .cover {
     position:relative;
@@ -72,21 +79,18 @@ img {
 .hide {
     display:none;
 }
-.rabbits {
-    display:block;
-}
 .s {
     animation: fadeLoop 7s infinite;
     position:absolute;
     opacity:0;
 }
-.green {
+.red {
     animation-delay:0s;
 }
-.yellow {
+.green {
     animation-delay: 1.5s;
 }
-.red {
+.yellow {
     animation-delay: 3s;
 }
 .pink {
@@ -102,3 +106,13 @@ img {
     43% {opacity:0;}
     100% {opacity:0;}
 }
+/* body {
+    background-color:white;
+} */
+    /* transition:background-color 0.1s ease;
+}
+body:active {
+    background-color:black;
+    height:100vh;
+    width:100vw;
+} */

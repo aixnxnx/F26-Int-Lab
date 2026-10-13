@@ -18,6 +18,7 @@
     </div> -->
     <div class="regular">
         <img src="rabbit.png" id="rabbit" class="cover">
+    </div>
     <div class="rabbits">
         <img src="rabbit staring green.png" class="s green peekaboo">
         <img src="rabbit staring yellow.png" class="s yellow peekaboo">
@@ -26,9 +27,18 @@
         <img src="rabbit staring blue.png" class="s blue peekaboo">
     </div>
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
         const image = document.getElementById('rabbit');
         image.addEventListener ('click', function() {
             image.classList.add ('hide');
+        function changeBackground() {
+            document.body.style.backgroundColor = 'black';
+            img.removeEventListener ('click', changeBackground);
+            img.style.cursor = "default";
+        }
+        img.addEventListener('click', changeBackground);
+            // document.body.classList.add('body:active');
+        });
         });
     </script>
 </body>
