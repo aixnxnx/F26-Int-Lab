@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+}
+img {
+    width:100%;
+    object-fit: cover;;
+}
+.pen {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.rabbits {
+    box-sizing:border-box;
+    grid-column:3;
+    grid-row:2;
+    animation: fadeLoop 5s infinite;
+    opacity:0;
+}
+.red {
+    animation-delay:0s;
+}
+.green {
+    animation-delay: 1s;
+}
+.yellow {
+    animation-delay: 2s;
+}
+.pink {
+    animation-delay: 3s;
+}
+.blue {
+    animation-delay: 4s;
+}
+@keyframes fadeLoop {
+    0% {opacity:0;}
+    10% {opacity:1;}
+    33% {opacity:1;}
+    43% {opacity:0;}
+    100% {opacity:0;}
+}
