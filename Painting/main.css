@@ -1,0 +1,41 @@
+h1, h2 {
+    z-index:-1;
+    opacity:30%;
+    font-family:sans-serif;
+    font-weight:bolder;
+}
+h1 {
+    font-size:96px;
+    grid-column: 1;
+}
+.wall {
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+}
+.canvas {
+    width:350px;
+    height:550px;
+    background-color:rgb(217, 216, 202);
+    grid-column:4;
+    grid-row:1;
+}
+.big-square {
+    width:150px;
+    height:150px;
+    background-color:black;
+    z-index:1;
+    position:relative;
+    left:230px;
+    top:-100px;
+}
+.red-square {
+    width:100px;
+    height:100px;
+    rotate:-20deg;
+    background-color:rgb(155, 68, 68);
+    position:relative;
+    right:200px;
+    top:70px;
+}
