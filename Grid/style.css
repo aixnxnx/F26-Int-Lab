@@ -42,6 +42,16 @@ body {
     height:50px;
     background-color: rgb(206, 144, 226);
     margin:10px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+p {
+    color:rgb(255, 217, 82);
+    font-family:helvetica;
+    font-weight:bolder;
+    font-size:30px;
+    margin-top:5px;
 }
 .misc {
     width:100vw;
