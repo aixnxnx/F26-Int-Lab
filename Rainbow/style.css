@@ -1,0 +1,177 @@
+* {
+    overflow: hidden;
+    margin: 0;
+}
+.tuperware {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+.stripe-yellow {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(225, 255, 0);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-yellow:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-green {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(30, 255, 0);
+    flex: 1;
+    transition: 300ms ease-in;
+    transition: 600ms ease-out;
+}
+.stripe-green:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-teal {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(0, 255, 157);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-teal:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-cornflower {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(0, 234, 255);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-cornflower:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-blue {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(0, 123, 255);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-blue:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-bluer {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(0, 30, 255);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-bluer:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-purple {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(162, 0, 255);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-purple:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-violet {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(221, 0, 255);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-violet:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-pink {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(255, 0, 200);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-pink:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-red {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(255, 0, 47);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-red:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-orange {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(255, 85, 0);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-orange:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}
+.stripe-yellowish {
+    height: 100vh;
+    width: 10%;
+    background-color:rgb(255, 221, 0);
+    flex: 1;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+}
+.stripe-yellowish:hover {
+    flex:2;
+    transition: all 300ms ease-in;
+    transition: all 600ms ease-out;
+    filter:hue-rotate(50deg);
+}

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+.static {
+    height: 64px;
+    margin-bottom: 8px;
+    background-color: fuchsia;
+    padding-top: 10px;
+    font-family: helvetica;
+    font-size: 36px;
+    text-align: center;
+    /* position: relative; */
+}
+.relative {
+    height: 64px;
+    width: 90%;
+    padding-top: 10px;
+    font-family: helvetica;
+    font-size: 36px;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+    left: 64px;
+}
+/* ancestor - also only works when the parent container is a position relative (or not static) */
+.absolute { 
+    height: 32px;
+    width: 10%;
+    padding-top: 10px;
+    font-family: helvetica;
+    font-size: 36px;
+    text-align: center;
+    background-color: rgb(128, 255, 0);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /* top: 100px;
+    left: 64px; */
+}
+.fixed {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    height: 64px;
+    width: 10%;
+    padding-top: 10px;
+    font-family: helvetica;
+    font-size: 36px;
+    text-align: center;
+    background-color: rgb(0, 106, 255);
+}
+.scroll {
+    background-color: rgb(255, 7, 52);
+    height: 300vh;
+    font-family: helvetica;
+    font-size: 36px;
+    text-align: center;
+}
+.sticky {
+    background-color: rgb(239, 246, 17);
+    position: sticky;
+    height: 64px;
+    width:20%;
+    top: 50px;
+    font-family: helvetica;
+    font-size: 36px;
+    text-align: center;
+    z-index: 1;
+}

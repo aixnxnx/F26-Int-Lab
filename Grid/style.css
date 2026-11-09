@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-color:rgb(222, 255, 175);
+}
+.tuperware {
+    width:100vw;
+    height:200px;
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.konnichiwa {
+    width:600px;
+    height:170px;
+    background-color:rgb(176, 255, 176);
+    border-top: 2px rgb(170, 183, 244) solid;
+    border-left: 2px rgb(170, 183, 244) solid;
+}
+.crate {
+    width:100vw;
+    height:350px;
+    display:flex;
+    margin-top:10px;
+    justify-content: center;
+    align-items:center;
+}
+.dog {
+    width:500px;
+    height:350px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(226, 165, 246);
+}
+.card {
+    width:480px;
+    height:50px;
+    background-color: rgb(206, 144, 226);
+    margin:10px;
+}
+.misc {
+    width:100vw;
+    height:150px;
+    margin-top:30px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.text-box {
+    width:600px;
+    height:150px;
+    display:flex;
+    background-color:rgb(220, 255, 255);
+    border: 4px rgb(210, 246, 246) solid;
+}
+.box-container {
+    display:block;
+    width:200px;
+    height:150px;
+}
+.boxes1 {
+    width:250px;
+    height:35px;
+    background-color:rgb(231, 231, 231);
+    border: 2px rgb(135, 133, 133) solid;
+}
+.love-space {
+    font-size:74px;
+    color:rgb(255, 217, 82);
+    text-shadow:rgb(186, 124, 57) 2px 3px;
+    margin-left:120px;
+    margin-top:10px;
+}
