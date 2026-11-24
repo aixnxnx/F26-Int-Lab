@@ -1,0 +1,153 @@
+body {
+    background-color:fuchsia;
+    cursor:default;
+}
+
+.water-container {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    height:45vh;
+}
+
+.container {
+    height:250px;
+    background-color:white;
+}
+
+img {
+    width:100px;
+    height:auto;
+    opacity:100%;
+}
+
+h1 {
+    font-family:helvetica;
+    font-size:50px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:black;
+}
+
+h1:hover {
+    color:white;
+}
+
+@media (min-width:768px) {
+    body {
+    background-color:aqua;
+    }
+    .water-container {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    height:40vh;
+    }
+    .container {
+    height:200px;
+    background-color:rgb(255, 176, 86);
+    flex:1;
+    }
+    img {
+        width:100px;
+        height:auto;
+        opacity:100%;
+    }
+        h1 {
+    font-family:helvetica;
+    font-size:100px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:black;
+}
+
+h1:hover {
+    color:white;
+}
+}
+
+@media (min-width:1024px){
+    body {
+    background-color:rgb(229, 255, 0);
+    }
+    .water-container {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    height:35vh;
+    }
+    .container {
+    height:150px;
+    background-color:rgb(255, 86, 86);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex:1;
+    }
+    img {
+        width:100px;
+        height:auto;
+        opacity:100%;
+    }
+    h1 {
+    font-family:helvetica;
+    font-size:150px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:black;
+}
+
+h1:hover {
+    color:white;
+}
+}
+
+@media (min-width:1440px){
+    body {
+    background-color:rgb(255, 0, 72);
+    }
+    .water-container {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    height:30vh;
+    }
+    .container {
+    height:100px;
+    background-color:rgb(86, 255, 151);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex:1;
+    }
+    img {
+        width:100px;
+        height:auto;
+        opacity:100%;
+    }
+    h1 {
+    font-family:helvetica;
+    font-size:200px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:black;
+}
+
+h1:hover {
+    color:white;
+}
+}
+
+/* object fit cover */

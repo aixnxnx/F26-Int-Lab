@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+}
+.backing {
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    background-color:deeppink;
+}
+.month {
+    width:98.5vw;
+    height:100px;
+    text-align:center;
+    background-color:rgb(255, 234, 245);
+    font-family: helvetica;
+    font-size:80px;
+    font-weight:lighter;
+    margin:10px;
+}
+.week {
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:100px;
+    background-color:deeppink;
+}
+.days {
+    width:50%;
+    height:70px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(255, 206, 232);
+    font-family: helvetica;
+    font-size:40px;
+    font-weight:lighter;
+    margin:10px;
+}
+.tuperware {
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:80vh;
+    background-color:deeppink;
+}
+.dates {
+    width:50%;
+    height:100px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(255, 162, 212);
+    font-family: helvetica;
+    font-size:20px;
+    font-weight:lighter;
+    margin:10px;
+}
+
+/* mobile */
+
+@media (max-width:768px){
+   .backing {
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    background-color:deeppink;
+}
+.month {
+    width:96.5vw;
+    height:100px;
+    text-align:center;
+    background-color:rgb(255, 234, 245);
+    font-family: helvetica;
+    font-size:80px;
+    font-weight:lighter;
+    margin:10px;
+}
+.week {
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:100px;
+    background-color:deeppink;
+    display:none;
+}
+.days {
+    flex:1;
+    width:50%;
+    height:70px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(255, 206, 232);
+    font-family: helvetica;
+    font-size:40px;
+    font-weight:lighter;
+    margin:10px;
+}
+.tuperware {
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:80vh;
+    background-color:deeppink;
+}
+.dates {
+    width:50%;
+    height:100px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(255, 162, 212);
+    font-family: helvetica;
+    font-size:20px;
+    font-weight:lighter;
+    margin:10px;
+} 
+}
